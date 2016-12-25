@@ -187,7 +187,7 @@ public class ArticleDetailFragment extends Fragment implements
             mRootView.setAlpha(0);
             mRootView.setVisibility(View.VISIBLE);
             mRootView.animate().alpha(1);
-            titleView.setText(mCursor.getString(ArticleLoader.Query.TITLE));
+            titleView.setText("\n"+mCursor.getString(ArticleLoader.Query.TITLE));
             bylineView.setText(Html.fromHtml(
                     DateUtils.getRelativeTimeSpanString(
                             mCursor.getLong(ArticleLoader.Query.PUBLISHED_DATE),
@@ -200,8 +200,8 @@ public class ArticleDetailFragment extends Fragment implements
                 ctBar.setTitleEnabled(false);
                 Toolbar tBar = (Toolbar) mRootView.findViewById(R.id.toolbar);
                 tBar.setTitle(mCursor.getString(ArticleLoader.Query.TITLE));
-                tBar.setTitleMarginStart(R.integer.toolbar_title_start);
-                tBar.setTitleMarginTop(R.integer.toolbar_title_top);
+                tBar.setTitleMarginStart(getActivity().getResources().getInteger(R.integer.toolbar_title_start));
+                tBar.setTitleMarginTop(getActivity().getResources().getInteger(R.integer.toolbar_title_top));
             }
             bodyView.setText(Html.fromHtml(mCursor.getString(ArticleLoader.Query.BODY)));
             ImageLoaderHelper.getInstance(getActivity()).getImageLoader()
