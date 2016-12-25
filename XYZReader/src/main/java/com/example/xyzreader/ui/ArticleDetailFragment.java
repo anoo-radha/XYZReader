@@ -16,17 +16,23 @@ import android.support.v7.widget.Toolbar;
 import android.text.Html;
 import android.text.format.DateUtils;
 import android.text.method.LinkMovementMethod;
+import android.transition.Slide;
 import android.util.Log;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.ImageLoader;
 import com.example.xyzreader.R;
 import com.example.xyzreader.data.ArticleLoader;
+
+import static android.R.integer.config_shortAnimTime;
 
 /**
  * A fragment representing a single Article detail screen. This fragment is
@@ -101,7 +107,7 @@ public class ArticleDetailFragment extends Fragment implements
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
-            Bundle savedInstanceState) {
+                             Bundle savedInstanceState) {
         mRootView = inflater.inflate(R.layout.fragment_article_detail, container, false);
 //        mDrawInsetsFrameLayout = (DrawInsetsFrameLayout)
 //                mRootView.findViewById(R.id.draw_insets_frame_layout);
@@ -139,6 +145,14 @@ public class ArticleDetailFragment extends Fragment implements
         });
 
         bindViews();
+
+        //Adding animation to slide the content text from bottom
+        Slide slide = new Slide(Gravity.BOTTOM);
+        LinearLayout linearLayout = (LinearLayout) mRootView.findViewById(R.id.detail_body);
+        slide.addTarget(linearLayout);
+        slide.setInterpolator(AnimationUtils.loadInterpolator(getActivity(), android.R.interpolator.linear_out_slow_in));
+        slide.setDuration(config_shortAnimTime);
+
 //        updateStatusBar();
         return mRootView;
     }
@@ -158,19 +172,19 @@ public class ArticleDetailFragment extends Fragment implements
 //        mDrawInsetsFrameLayout.setInsetBackground(mStatusBarColorDrawable);
 //    }
 
-    static float progress(float v, float min, float max) {
-        return constrain((v - min) / (max - min), 0, 1);
-    }
+//    static float progress(float v, float min, float max) {
+//        return constrain((v - min) / (max - min), 0, 1);
+//    }
 
-    static float constrain(float val, float min, float max) {
-        if (val < min) {
-            return min;
-        } else if (val > max) {
-            return max;
-        } else {
-            return val;
-        }
-    }
+//    static float constrain(float val, float min, float max) {
+//        if (val < min) {
+//            return min;
+//        } else if (val > max) {
+//            return max;
+//        } else {
+//            return val;
+//        }
+//    }
 
     private void bindViews() {
         if (mRootView == null) {
@@ -187,7 +201,7 @@ public class ArticleDetailFragment extends Fragment implements
             mRootView.setAlpha(0);
             mRootView.setVisibility(View.VISIBLE);
             mRootView.animate().alpha(1);
-            titleView.setText("\n"+mCursor.getString(ArticleLoader.Query.TITLE));
+            titleView.setText(mCursor.getString(ArticleLoader.Query.TITLE));
             bylineView.setText(Html.fromHtml(
                     DateUtils.getRelativeTimeSpanString(
                             mCursor.getLong(ArticleLoader.Query.PUBLISHED_DATE),
@@ -195,7 +209,7 @@ public class ArticleDetailFragment extends Fragment implements
                             DateUtils.FORMAT_ABBREV_ALL).toString()
                             + " by "
                             + mCursor.getString(ArticleLoader.Query.AUTHOR)));
-            if(mRootView.findViewById(R.id.collapsible_toolbar)!=null){
+            if (mRootView.findViewById(R.id.collapsible_toolbar) != null) {
                 CollapsingToolbarLayout ctBar = (CollapsingToolbarLayout) mRootView.findViewById(R.id.collapsible_toolbar);
                 ctBar.setTitleEnabled(false);
                 Toolbar tBar = (Toolbar) mRootView.findViewById(R.id.toolbar);
@@ -227,7 +241,7 @@ public class ArticleDetailFragment extends Fragment implements
         } else {
             mRootView.setVisibility(View.GONE);
             titleView.setText("N/A");
-            bylineView.setText("N/A" );
+            bylineView.setText("N/A");
             bodyView.setText("N/A");
         }
     }

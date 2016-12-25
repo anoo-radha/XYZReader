@@ -12,10 +12,6 @@
         "source": "/Users/anuomharini/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/drawable/abc_btn_borderless_material.xml"
     },
     {
-        "merged": "/Users/anuomharini/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable/design_bottom_navigation_item_background.xml",
-        "source": "/Users/anuomharini/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/drawable/design_bottom_navigation_item_background.xml"
-    },
-    {
         "merged": "/Users/anuomharini/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
         "source": "/Users/anuomharini/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/drawable/abc_tab_indicator_material.xml"
     },
@@ -124,16 +120,12 @@
         "source": "/Users/anuomharini/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/drawable/notification_icon_background.xml"
     },
     {
-        "merged": "/Users/anuomharini/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
-        "source": "/Users/anuomharini/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/drawable/abc_edit_text_material.xml"
-    },
-    {
         "merged": "/Users/anuomharini/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable/abc_seekbar_tick_mark_material.xml",
         "source": "/Users/anuomharini/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/drawable/abc_seekbar_tick_mark_material.xml"
     },
     {
-        "merged": "/Users/anuomharini/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
-        "source": "/Users/anuomharini/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/drawable/abc_btn_colored_material.xml"
+        "merged": "/Users/anuomharini/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable/no_image.jpg",
+        "source": "/Users/anuomharini/AndroidStudioProjects/xyzreader/XYZReader/src/main/res/drawable/no_image.jpg"
     },
     {
         "merged": "/Users/anuomharini/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable/photo_background_protection.xml",
@@ -148,16 +140,8 @@
         "source": "/Users/anuomharini/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/drawable/abc_switch_thumb_material.xml"
     },
     {
-        "merged": "/Users/anuomharini/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable/design_password_eye.xml",
-        "source": "/Users/anuomharini/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/drawable/design_password_eye.xml"
-    },
-    {
         "merged": "/Users/anuomharini/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable/design_fab_background.xml",
         "source": "/Users/anuomharini/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/drawable/design_fab_background.xml"
-    },
-    {
-        "merged": "/Users/anuomharini/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable/white_selectable_item_background_circle.xml",
-        "source": "/Users/anuomharini/AndroidStudioProjects/xyzreader/XYZReader/src/main/res/drawable/white_selectable_item_background_circle.xml"
     },
     {
         "merged": "/Users/anuomharini/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable/abc_ic_search_api_material.xml",

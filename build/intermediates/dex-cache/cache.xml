@@ -232,7 +232,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="4780db9755440ec723bdc7d97cf2cff109c64758">
+        sha1="59a5b5cd90ad044d985a8fa299a13807d1aad69f">
         <dex dex="/Users/anuomharini/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_5baf3b4b58c5865b1c501d69ca711df17836defb/classes.dex" />
     </item>
 
