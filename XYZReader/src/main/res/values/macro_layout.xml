@@ -5,6 +5,8 @@
     <integer name="list_column_count">2</integer>
 
     <!-- detail -->
+    <integer name="toolbar_title_start">168</integer>
+    <integer name="toolbar_title_top">128</integer>
     <bool name="detail_is_card">false</bool>
     <dimen name="detail_photo_height">304dp</dimen>
     <dimen name="detail_card_top_margin">@dimen/detail_photo_height</dimen>
