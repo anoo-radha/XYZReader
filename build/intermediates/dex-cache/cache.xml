@@ -151,7 +151,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="fb616065ea443c6b83e7986f481de1db8665f0da">
+        sha1="89b8940c212bbee450f5d9e37900a0416aa769cb">
         <dex dex="/Users/anuomharini/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_88379b92ae4890c108f6c8d526571cb5614290a0/classes.dex" />
     </item>
     <item
@@ -232,7 +232,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="d47edaa03a11760549750f9f894baf93e053f0c7">
+        sha1="69fbbba63b8e84f4fe85476dbb1b28e2f871024f">
         <dex dex="/Users/anuomharini/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_5baf3b4b58c5865b1c501d69ca711df17836defb/classes.dex" />
     </item>
 

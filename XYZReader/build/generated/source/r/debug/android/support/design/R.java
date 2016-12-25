@@ -345,11 +345,11 @@ public final class R {
 		public static final int windowNoTitle = 0x7f010032;
 	}
 	public static final class bool {
-		public static final int abc_action_bar_embed_tabs = 0x7f0a0000;
-		public static final int abc_allow_stacked_button_bar = 0x7f0a0002;
-		public static final int abc_config_actionMenuItemAllCaps = 0x7f0a0003;
-		public static final int abc_config_closeDialogWhenTouchOutside = 0x7f0a0004;
-		public static final int abc_config_showMenuShortcutsWhenKeyboardPresent = 0x7f0a0005;
+		public static final int abc_action_bar_embed_tabs = 0x7f0b0000;
+		public static final int abc_allow_stacked_button_bar = 0x7f0b0002;
+		public static final int abc_config_actionMenuItemAllCaps = 0x7f0b0003;
+		public static final int abc_config_closeDialogWhenTouchOutside = 0x7f0b0004;
+		public static final int abc_config_showMenuShortcutsWhenKeyboardPresent = 0x7f0b0005;
 	}
 	public static final class color {
 		public static final int abc_background_cache_hint_selector_material_dark = 0x7f0d0053;
@@ -561,33 +561,33 @@ public final class R {
 		public static final int design_tab_scrollable_min_width = 0x7f08001a;
 		public static final int design_tab_text_size = 0x7f080082;
 		public static final int design_tab_text_size_2line = 0x7f080083;
-		public static final int disabled_alpha_material_dark = 0x7f080085;
-		public static final int disabled_alpha_material_light = 0x7f080086;
-		public static final int highlight_alpha_material_colored = 0x7f080089;
-		public static final int highlight_alpha_material_dark = 0x7f08008a;
-		public static final int highlight_alpha_material_light = 0x7f08008b;
-		public static final int hint_alpha_material_dark = 0x7f08008c;
-		public static final int hint_alpha_material_light = 0x7f08008d;
-		public static final int hint_pressed_alpha_material_dark = 0x7f08008e;
-		public static final int hint_pressed_alpha_material_light = 0x7f08008f;
-		public static final int item_touch_helper_max_drag_scroll_per_frame = 0x7f080090;
-		public static final int item_touch_helper_swipe_escape_max_velocity = 0x7f080091;
-		public static final int item_touch_helper_swipe_escape_velocity = 0x7f080092;
-		public static final int notification_action_icon_size = 0x7f080094;
-		public static final int notification_action_text_size = 0x7f080095;
-		public static final int notification_big_circle_margin = 0x7f080096;
+		public static final int disabled_alpha_material_dark = 0x7f080087;
+		public static final int disabled_alpha_material_light = 0x7f080088;
+		public static final int highlight_alpha_material_colored = 0x7f08008b;
+		public static final int highlight_alpha_material_dark = 0x7f08008c;
+		public static final int highlight_alpha_material_light = 0x7f08008d;
+		public static final int hint_alpha_material_dark = 0x7f08008e;
+		public static final int hint_alpha_material_light = 0x7f08008f;
+		public static final int hint_pressed_alpha_material_dark = 0x7f080090;
+		public static final int hint_pressed_alpha_material_light = 0x7f080091;
+		public static final int item_touch_helper_max_drag_scroll_per_frame = 0x7f080092;
+		public static final int item_touch_helper_swipe_escape_max_velocity = 0x7f080093;
+		public static final int item_touch_helper_swipe_escape_velocity = 0x7f080094;
+		public static final int notification_action_icon_size = 0x7f080096;
+		public static final int notification_action_text_size = 0x7f080097;
+		public static final int notification_big_circle_margin = 0x7f080098;
 		public static final int notification_content_margin_start = 0x7f080023;
-		public static final int notification_large_icon_height = 0x7f080097;
-		public static final int notification_large_icon_width = 0x7f080098;
+		public static final int notification_large_icon_height = 0x7f080099;
+		public static final int notification_large_icon_width = 0x7f08009a;
 		public static final int notification_main_column_padding_top = 0x7f080024;
 		public static final int notification_media_narrow_margin = 0x7f080025;
-		public static final int notification_right_icon_size = 0x7f080099;
+		public static final int notification_right_icon_size = 0x7f08009b;
 		public static final int notification_right_side_padding_top = 0x7f080021;
-		public static final int notification_small_icon_background_padding = 0x7f08009a;
-		public static final int notification_small_icon_size_as_large = 0x7f08009b;
-		public static final int notification_subtext_size = 0x7f08009c;
-		public static final int notification_top_pad = 0x7f08009d;
-		public static final int notification_top_pad_large_text = 0x7f08009e;
+		public static final int notification_small_icon_background_padding = 0x7f08009c;
+		public static final int notification_small_icon_size_as_large = 0x7f08009d;
+		public static final int notification_subtext_size = 0x7f08009e;
+		public static final int notification_top_pad = 0x7f08009f;
+		public static final int notification_top_pad_large_text = 0x7f0800a0;
 	}
 	public static final class drawable {
 		public static final int abc_ab_share_pack_mtrl_alpha = 0x7f020000;
@@ -856,15 +856,15 @@ public final class R {
 		public static final int wrap_content = 0x7f0e0024;
 	}
 	public static final class integer {
-		public static final int abc_config_activityDefaultDur = 0x7f0c0002;
-		public static final int abc_config_activityShortDur = 0x7f0c0003;
-		public static final int app_bar_elevation_anim_duration = 0x7f0c0004;
-		public static final int bottom_sheet_slide_duration = 0x7f0c0005;
-		public static final int cancel_button_image_alpha = 0x7f0c0006;
-		public static final int design_snackbar_text_max_lines = 0x7f0c0000;
-		public static final int hide_password_duration = 0x7f0c0007;
-		public static final int show_password_duration = 0x7f0c0008;
-		public static final int status_bar_notification_info_maxnum = 0x7f0c0009;
+		public static final int abc_config_activityDefaultDur = 0x7f0a0002;
+		public static final int abc_config_activityShortDur = 0x7f0a0003;
+		public static final int app_bar_elevation_anim_duration = 0x7f0a0004;
+		public static final int bottom_sheet_slide_duration = 0x7f0a0005;
+		public static final int cancel_button_image_alpha = 0x7f0a0006;
+		public static final int design_snackbar_text_max_lines = 0x7f0a0001;
+		public static final int hide_password_duration = 0x7f0a0007;
+		public static final int show_password_duration = 0x7f0a0008;
+		public static final int status_bar_notification_info_maxnum = 0x7f0a0009;
 	}
 	public static final class layout {
 		public static final int abc_action_bar_title_item = 0x7f040000;
